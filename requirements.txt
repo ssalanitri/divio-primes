@@ -2,4 +2,4 @@ wagtail
 django
 bokeh
 plotly
-
+gunicorn
