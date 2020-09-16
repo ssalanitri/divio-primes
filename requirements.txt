@@ -1,0 +1,5 @@
+wagtail
+django
+bokeh
+plotly
+
