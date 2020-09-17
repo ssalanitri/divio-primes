@@ -1,7 +1,7 @@
 # PrimesLab
 Pruebas de CMS en DIVIO
 
-#Run the app locally
+# Run the app locally
 
 
 1. Prepare Procfile
