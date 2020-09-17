@@ -22,7 +22,7 @@ web: python manage.py runserver 0.0.0.0:5000
 Right now, your app is running on a single web dyno. 
    $heroku ps
 Scale the number of web dynos to one:
-    $heroku ps:scale web=1
+   $heroku ps:scale web=1 -a primeslab -f Procfile.windows
 
 #Note: At free account, the max of availables dynos is 1.
 
@@ -33,5 +33,10 @@ Scale the number of web dynos to one:
     In Windows> $heroku local web -f Procfile.windows
     In Unix-like: heroku local web 
 
+# Deploy in Heroku cloud
 
+1. Create remote in local repository
+    $git remote heroku 
+2. Deploying code
+    $git push heroku master
 
