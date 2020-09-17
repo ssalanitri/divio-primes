@@ -37,6 +37,9 @@ Scale the number of web dynos to one:
 
 1. Create remote in local repository
     $git remote heroku 
+2. Login to heroku
+    $heroku login
+    
 2. Deploying code
     $git push heroku master
 
