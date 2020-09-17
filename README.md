@@ -15,7 +15,10 @@ web: python manage.py runserver 0.0.0.0:5000
     $cd env/Scrips
     $./activate
 
-3. Scale the app
+3. Build Pack
+    $heroku buildpacks:add heroku/python -a primeslab --index=1
+
+4. Scale the app
 Right now, your app is running on a single web dyno. 
    $heroku ps
 Scale the number of web dynos to one:
@@ -23,7 +26,7 @@ Scale the number of web dynos to one:
 
 #Note: At free account, the max of availables dynos is 1.
 
-4. Collect Statics files
+5. Collect Statics files
     $python manage.py collectstatic
 
 5. Load heroku web 
