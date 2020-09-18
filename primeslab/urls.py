@@ -8,7 +8,12 @@ from wagtail.documents import urls as wagtaildocs_urls
 
 from search import views as search_views
 
+##----Import redirect view -----##
+from .views import redirect_view 
+
+
 urlpatterns = [
+    path('/', redirect_view),
     path('django-admin/', admin.site.urls),
 
     path('admin/', include(wagtailadmin_urls)),
