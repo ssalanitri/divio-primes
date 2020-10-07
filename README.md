@@ -1,7 +1,13 @@
 # PrimesLab
-Pruebas de CMS en DIVIO
 
-# Run the app locally
+## Goals
+
+1.This project integrate in a Wagtail CMS my plotNumberTheory
+and primes projects.
+2. Create interacrive content about elemental and analytic number theory
+
+
+## Run the app locally
 
 
 1. Prepare Procfile
